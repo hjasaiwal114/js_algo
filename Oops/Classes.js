@@ -9,4 +9,4 @@ class Person {
     }
 }
 
-const Person = new Person('Himanshu', 'Jasaiwla')
+const Person = new Person('Himanshu', 'Jasaiwlax')
