@@ -1,19 +1,10 @@
-class Alien {
-    constructor (name, person) {
-        this.name = name
-        this.phrase = phrase
-        this.species = "alien"
-    }
-    fly = () => console.log("dsjfhrri23")
-    sayphrase = () => console.log(this.phrase)
+function speak(line) {
+    console.log(`The ${this.type} rabbit says  ${line} `)
 }
+let whiteRabbit = { type: "white", speak};
+let hungryRabbit = { type: "hungry", speak};
 
-class Robot {
-    constructor (name, phrase) {
-        this.name = name
-        this.phrase = phrase
-        this.species = "robot"
-    }
-    transform = () => console.log("Optimus prime!")
-    sayPhrase = () => console.log(this.phrase)
-}
+whiteRabbit.speak("Oh my ears and whiskers, " +
+                "how late it's getting");
+hungryRabbit.speak("I could use a carrot right now. ");
+
